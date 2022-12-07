@@ -1,0 +1,14 @@
+.search-bar {
+  width: clamp(200px, 100%, 700px);
+  height: 40px;
+  padding: 4px 8px;
+  font-size: 20px ;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+
+.search-bar::-webkit-search-cancel-button{
+
+    color: red    
+}

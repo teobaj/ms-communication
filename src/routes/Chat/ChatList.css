@@ -1,0 +1,41 @@
+.chat-list {
+  background-color: #1e1e1f;
+  width: 300px;
+}
+
+.cell {
+  display: grid;
+  grid-template-columns: 50px auto 20px;
+  padding: 10px;
+}
+
+.cell:hover{
+  background-color: #868686;
+}
+
+.cell__main > h4 {
+  margin: 0;
+}
+
+.cell__main > span {
+  font-style: italic;
+}
+
+.cell__main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header__title, .header__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

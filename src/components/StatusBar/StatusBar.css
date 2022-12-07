@@ -1,0 +1,21 @@
+.status-bar {
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: 90px 300px auto;
+  background-color: #000000;
+}
+
+.status-bar__arrows {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status-bar__search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+
+}
