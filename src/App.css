@@ -6,3 +6,7 @@
   grid-template-columns: 90px 300px auto;
   grid-template-rows: 70px auto;
 }
+
+.app-outlet {
+  grid-column: 2/4;
+}

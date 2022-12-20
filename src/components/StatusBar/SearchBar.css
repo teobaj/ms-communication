@@ -1,6 +1,17 @@
-.search-bar {
+.search-bar__wrapper {
   width: clamp(200px, 100%, 700px);
   height: 40px;
+  padding: 4px 8px;
+  font-size: 20px ;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+
+.search-bar {
+  width: 100%;  
+  height: 40px;
+
   padding: 4px 8px;
   font-size: 20px ;
   border: none;
@@ -11,4 +22,9 @@
 .search-bar::-webkit-search-cancel-button{
 
     color: red    
+}
+
+.search-bar__results {
+  position: relative;
+  
 }

@@ -1,0 +1,9 @@
+.chat-message {
+  border: 1px solid white;
+  /* width: clamp(120px, 100%, 500px); */
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+
